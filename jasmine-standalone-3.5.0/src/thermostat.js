@@ -1,11 +1,11 @@
 function Thermostat() {
-  this.DEFUALT_TEMP = 20;
+  this.DEFAULT_TEMP = 20;
   this.HIGH_USAGE = 25;
   this.MEDIUM_USAGE = 18
   this.MAX_TEMP = 32
   this.MIN_TEMP = 10
   this.SAVING_MAX_TEMP = 25
-  this.temp = this.DEFUALT_TEMP;
+  this.temp = this.DEFAULT_TEMP;
   this.savingOn = true;
 }
 
@@ -37,7 +37,7 @@ Thermostat.prototype.powerSavingOff = function() {
 }
 
 Thermostat.prototype.reset = function() {
-  this.temp = this.DEFUALT_TEMP;
+  this.temp = this.DEFAULT_TEMP;
 }
 
 Thermostat.prototype.energyUsage = function() {
