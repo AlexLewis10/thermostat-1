@@ -3,7 +3,11 @@ $(function() {
   var displayTemp = function() {
   $('#temp').text(thermostat.temp)
   $('#power-usage').text(thermostat.energyUsage())
+  $('body').attr('class', thermostat.energyUsage())
+  
 }
+
+
 
 displayTemp()
 

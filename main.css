@@ -1,3 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.low-usage {
+  background-color: blue;
+}
+.medium-usage {
+  background-color: yellow;
+}
+.high-usage {
+  background-color: red;
+}
+
 /*
 * {
   margin: 0;
@@ -61,4 +78,5 @@ button, input {
 #update-weather {
   display: none;
 }
+
 */
